@@ -1,6 +1,6 @@
-import VietnamMap from "./components/VietnamMapNew";
-import VietnamStats from "./components/VietnamStats";
-import Header from "./components/Header";
+import VietnamSVGMap from './components/VietnamSVGMap';
+import VietnamStats from './components/VietnamStats';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <main className="container mx-auto px-4 py-8">
         <div className="space-y-8">
           <VietnamStats />
-          <VietnamMap />
+          <VietnamSVGMap />
         </div>
       </main>
     </div>

@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-red-600 text-white shadow-lg">
+    <header className="bg-vietnam-red text-white shadow-lg">
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
           <h1 className="text-3xl font-bold">🇻🇳 Việt Nam Trong Tim Tôi</h1>
